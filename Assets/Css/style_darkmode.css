@@ -1,0 +1,71 @@
+/* In common */
+
+html {
+    background-color: rgb(033,033,033);
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+	color: rgb(180,251,251);
+}
+
+.button {
+    background-color: rgb(045,148,179);
+    color: rgb(033,033,033);
+}
+
+footer {
+    background-color: rgb(045,148,179);
+    color: rgb(033,033,033);
+}
+
+footer *{ 
+    color: rgb(033,033,033);
+}
+
+.button2{
+    background-color: rgb(018,018,018);
+    color: rgb(180,251,251);
+}
+
+
+/* Index */
+
+#itis{
+	background-color: white;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#pulminoh{
+    border: 3px solid rgb(045,148,179);
+
+}
+
+#psico{
+    border: 3px solid rgb(045,148,179);
+}
+
+/* Elenco */
+
+table, th, td {
+    border: 1px solid rgb(045,148,179);
+    color: rgb(180,251,251);
+}
+
+.Number{
+    color: rgb(203,050,052);
+}
+
+/* Orario */
+
+#orario{
+    border: 3px solid rgb(045,148,179);
+}
+
+/* Classeviva */
+
+#cvv{
+    width: 100%;
+    height: 490px;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid rgb(045,148,179);
+}
