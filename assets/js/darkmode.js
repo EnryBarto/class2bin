@@ -3,7 +3,7 @@ function load_mode () {
 
 
         var link = document.createElement("link");
-        link.href = "Assets/Css/style_darkmode.css";
+        link.href = "assets/css/style_darkmode.css";
         link.type = "text/css";
         link.rel = "stylesheet";
 

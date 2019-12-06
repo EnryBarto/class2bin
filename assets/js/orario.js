@@ -3,7 +3,7 @@ function load_mode () {
 
 
         var link = document.createElement("link");
-        link.href = "Assets/Css/style_darkmode.css";
+        link.href = "assets/css/style_darkmode.css";
         link.type = "text/css";
         link.rel = "stylesheet";
 
@@ -11,7 +11,7 @@ function load_mode () {
         
         var image = document.createElement("img");
         image.id = "orario";
-        image.src = "Assets/Images/orario_rev.png";
+        image.src = "assets/img/orario_rev.png";
         image.alt = "orario";
 
         document.getElementsByTagName("body")[0].appendChild(image);
@@ -20,7 +20,7 @@ function load_mode () {
         
         var image = document.createElement("img");
         image.id = "orario";
-        image.src = "Assets/Images/orario.png";
+        image.src = "assets/img/orario.png";
         image.alt = "orario";
 
         document.getElementsByTagName("body")[0].appendChild(image);
