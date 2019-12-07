@@ -1,9 +1,7 @@
-function load_mode () {
+function load_mode() {
     if (localStorage.getItem("darkmode") == 1) {
-
-
         var link = document.createElement("link");
-        link.href = "assets/css/style_darkmode.css";
+        link.href = "assets/css/dark.css";
         link.type = "text/css";
         link.rel = "stylesheet";
 
@@ -12,8 +10,8 @@ function load_mode () {
     }
 }
 
-function change_mode () {
-    if (localStorage.getItem("darkmode") == 1) {
+function change_mode() {
+    if (localStorage.getItem("darkmode") == 1) {    
         localStorage.setItem("darkmode", 0);
     } else {
         localStorage.setItem("darkmode", 1);

@@ -1,0 +1,17 @@
+#pulminoh{
+	border-radius: 15px 15px 15px 15px;
+	max-width:100%;
+	height:auto;
+	border: 3px solid rgb(000,128,128);
+
+}
+
+#psico{
+	border-radius: 25px;
+	word-wrap: break-word;
+	width: auto;
+	max-width: 70%;
+	margin: auto;
+	border: 3px solid rgb(000,128,128);
+	padding: auto;
+}

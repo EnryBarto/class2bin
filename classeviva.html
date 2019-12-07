@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>2^BIN | Orario</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <meta name="viewport" content="width=device-width">
-        <script type="text/javascript" src="assets/js/darkmode.js"></script>
-    </head>
+	<head>
+		<title>2^BIN | Orario</title>
 
-    <body onload="load_mode()">  
-        <h1> Registro Elettronico </h1>
-        <p><a href="index.html" class="button"><span>&thinsp; Home &thinsp;</span></a></p>
-        <br>
-        <iframe src="https://web.spaggiari.eu/home/app/default/login.php?ch=scuola" id="cvv" >Classeviva</iframe>
-    </body>
+		<meta name="viewport" content="width=device-width">
 
-    <footer>
-        <p>Sorgente:
-            <a href="https://github.com/EnryBarto/classe2bin" class="button2">GitHub</a>
-            <button id="change_mode_button" onclick="change_mode()" class="button2">Dark Mode</button>
-        </p>
-    </footer>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/cvv.css">
+
+		<script type="text/javascript" src="assets/js/darkmode.js"></script>
+		<script type="text/javascript" src="assets/js/cvv.js"></script>
+	</head>
+
+	<body onload="load_mode(); load_cvv();">  
+		<h1>Registro Elettronico</h1>
+		<p><a href="index.html" class="button"><span>&thinsp; Home &thinsp;</span></a></p>
+		<br>
+		<iframe id="cvv">Classeviva</iframe>
+	</body>
+
+	<footer>
+		<p>Sorgente:
+			<a href="https://github.com/EnryBarto/classe2bin" class="button2">GitHub</a>
+			<button id="change_mode_button" onclick="change_mode();" class="button2">Dark Mode</button>
+		</p>
+	</footer>
 </html>
