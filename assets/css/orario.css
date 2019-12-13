@@ -1,14 +1,11 @@
-#orario{
+/* LIGHTBOX */
+#orario-link {
+	height: 350px;
+	width: auto;
 	max-width:100%;
 	height:auto;
 	border-radius: 4% 4% 4% 4%;
 	border: 3px solid rgb(000,128,128);
-}
-
-/* LIGHTBOX */
-#orario-link {
-	height: 350px
-	width: auto;
 }
 
 #orario-lightbox {
