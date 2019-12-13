@@ -6,6 +6,9 @@ function load_mode() {
         link.rel = "stylesheet";
 
         document.getElementsByTagName("head")[0].appendChild(link);
+
+        // Switch
+        document.getElementsByTagName("input")[0].checked = true;
     }
 }
 
