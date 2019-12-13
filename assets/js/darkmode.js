@@ -6,7 +6,6 @@ function load_mode() {
         link.rel = "stylesheet";
 
         document.getElementsByTagName("head")[0].appendChild(link);
-        document.getElementById("change_mode_button").innerHTML = "Light Mode";
     }
 }
 
