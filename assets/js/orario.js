@@ -8,13 +8,3 @@ function load_orario() {
         document.getElementById("orario-lightbox").src = "assets/img/orario.png";
     }
 }
-
-// LIGHTBOX
-
-function openLightbox() {
-    document.getElementById("lightbox").style.display = "block";
-}
-
-function closeLightbox() {
-    document.getElementById("lightbox").style.display = "none";
-}

@@ -63,8 +63,8 @@ footer p{
 .switch {
 	position: relative;
 	display: inline-block;
-	width: 52px;
-	height: 29px;
+	width: 50px;
+	height: 23px;
 }
 
 /* Hide default HTML checkbox */
@@ -85,14 +85,13 @@ footer p{
 	background-color: #ccc;
 	-webkit-transition: .4s;
 	transition: .4s;
-	margin-bottom: 3px;
 }
 
 .slider:before {
 	position: absolute;
 	content: "";
-	height: 20px;
-	width: 20px;
+	height: 17.2px;
+	width: 17.2px;
 	left: 3px;
 	bottom: 3px;
 	background-color: white;
