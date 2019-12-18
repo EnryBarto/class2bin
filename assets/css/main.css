@@ -64,7 +64,7 @@ footer p{
 	position: relative;
 	display: inline-block;
 	width: 52px;
-	height: 26px;
+	height: 29px;
 }
 
 /* Hide default HTML checkbox */
@@ -85,6 +85,7 @@ footer p{
 	background-color: #ccc;
 	-webkit-transition: .4s;
 	transition: .4s;
+	margin-bottom: 3px;
 }
 
 .slider:before {
